@@ -7,8 +7,5 @@
   },
   "author": "Shiva Chouhan",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "nodemon": "^3.1.9"
-  }
+  "description": ""
 }

@@ -5,7 +5,7 @@
  * 
  * There is an inbuilt solution. That no need of installing the nodemon.
  * Just directly run node --watch then file name which you want to run.
- * 
+ * * * Such as (node --watch porting.js) you have used this command in the terminal as in this project
  * 
  * Whereas, if you install the nodemon then uninstall it. By writting command (i.e., npm uninstall nodemon).
  * 

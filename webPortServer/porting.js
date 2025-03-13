@@ -21,6 +21,13 @@ const serving = http.createServer((request, response) => {
         response.write("<h3><center> Feel free to contact us. <center/><h3/>")
         response.end();
     }
+    if(request.url === "/about")
+        {
+            response.setHeader("Content-Type", "text/html");
+            response.write("<h2><center> Welcome to the About Page. <center/><h2/>")
+            response.write("<p> Enjoy our website. <p/>")
+            response.end();
+        }
     
 });
 
